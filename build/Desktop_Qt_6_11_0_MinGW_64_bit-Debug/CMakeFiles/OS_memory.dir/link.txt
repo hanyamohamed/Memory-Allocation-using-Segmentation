@@ -1,0 +1,3 @@
+D:\QAIU\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\OS_memory.dir/objects.a
+D:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\OS_memory.dir/objects.a @CMakeFiles\OS_memory.dir\objects1.rsp
+D:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\OS_memory.dir/objects.a -Wl,--no-whole-archive -o OS_memory.exe -Wl,--out-implib,libOS_memory.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OS_memory.dir\linkLibs.rsp
